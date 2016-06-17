@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "PhotosInputModel",
+  "type": "object",
+  "properties": {
+    "user":{
+      "type": "object",
+      "properties": {
+        "id": { "type": "integer" },
+        "nome": { "type": "string" },
+        "cognome": { "type": "string" },
+      }
+    }
+  }
+}

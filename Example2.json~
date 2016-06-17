@@ -1,9 +1,9 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "title": "PhotosInputModel",
+  "title": "UserInputModel",
   "type": "object",
   "properties": {
-    "user":{
+    "Utente":{
       "type": "object",
       "properties": {
         "id": { "type": "integer" },
